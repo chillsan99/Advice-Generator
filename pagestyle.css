@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?&family=Poppins:wght@300&display=swap');
+
+
+*{
+    font-family: "Poppins";
+    margin:0;
+    text-align: center;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height:100vh;
+    margin:0;
+    background:rgba(19, 18, 18, 0.973)
+}
+
+.advicenum{
+    color:rgb(79, 218, 164);
+    margin-bottom:20px;
+}
+
+.description{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.card{ 
+    background:#333638d0;
+    width:100%;
+    border-radius: 10px;
+    max-width:500px;;
+    margin:0;
+    padding: 40px 20px 30px
+}
+
+.img{
+    margin-top:15px;
+}
+
+button{
+    background-color:rgb(31, 230, 130);
+    justify-items:center;
+    border-radius:50%;
+    margin:0.5em;
+    border:none;
+    height:40px;
+    width:40px;
+    margin-top:10px;
+}
+
+button img{
+    height:17px;
+    margin-top:5px;
+}
+
+
+button:hover{
+    background-color:#23e09b;
+    justify-items:center;
+    border-radius:50%;
+    border:none;
+    height:40px;
+    width:40px;
+}
+
+button:after{
+    background-color:#23e09b;
+    justify-items:center;
+    border-radius:50%;
+    margin:0.5em;
+    border:none;
+    height:40px;
+    width:40px;
+}
+
+.advice.loading{
+    visibility: hidden;
+    max-height:20px;
+}
+
+.advice.loading:after{
+    visibility:visible;
+    max-height:20px;
+}
